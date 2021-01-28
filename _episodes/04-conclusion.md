@@ -64,7 +64,7 @@ A web scraper, even one with legitimate purposes and no intent to bring a websit
 similar behaviour and, if we are not careful, result in our computer being banned from accessing
 a website.
 
-The good news is that a good web scraper, such as Scrapy, recognizes that this is a risk and includes
+The good news is that scraping manually using something like the Chrome Scraper extension cannot generate too many requests, and a good automated web scraper, such as Scrapy, recognizes that this is a risk and includes
 measures to prevent our code from appearing to launch a DoS attack on a website. This is mostly
 done by inserting a random delay between individual requests, which gives the target server enough
 time to handle requests from other users between ours. 
