@@ -27,12 +27,12 @@ We are interested in downloading the list of faculty names and their email addre
 ![East Asian Studies website]({{ page.root }}/fig/Image1.png)
 	
 ## Scrape similar 
-With the extension installed, we can select the first row in the faculty list, do a right-click and choose "Scrape similar" from the contextual menu. 
+With the extension installed, we can select the first row in the faculty list, do a right-click and choose "Scrape similar" from the contextual menu. Please note that the icon can 
 
 ![East Asian Studies website/scrape]({{ page.root }}/fig/Image2.png)
  
 You can select the picture as well. Make sure you do not right-click on a hyperlinked text. 
-Alternatively, the "Scrape similar" option can also be accessed from the Scraper extension icon:
+Alternatively, the "Scrape similar" option can also be accessed from the Scraper extension icon, but we have found that often times you can experience a glitch with the path if you use the icon instead.
  
 ![Scraper Web Browser]({{ page.root }}/fig/Image3.png)
  
