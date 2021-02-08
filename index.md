@@ -24,7 +24,7 @@ in the data.
 > As webscraping is a technique to extract data from web pages, it requires some understanding of
 > the technologies that are used to display information on the web. 
 > This lesson therefore assumes that learners will have some familiarity with [HTML](https://en.wikipedia.org/wiki/HTML)
-> and the [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model) (DOM).
+> and [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (OOP).
 >  
 > The first part of this lesson will use browser extensions to introduce the concepts of web scraping
 > as well as introduce the XPath syntax for selecting elements on a web page
