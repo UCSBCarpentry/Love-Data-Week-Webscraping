@@ -137,7 +137,8 @@ a web page.
 
 > ## Display the source of this page
 > Using Chrome, display the HTML source code of this page by right-clicking anywhere on the page and select the "View Page Source"
-> option. Another tab should open with the raw HTML that makes this page. See if you can locate its various elements, and
+> option. You can also press Command+Option+C (Mac) or Control+Shift+C (Windows, Linux, Chrome OS).
+> Another tab should open with the raw HTML that makes this page. See if you can locate its various elements, and
 > this challenge box in particular.
 {: .callout}
 
@@ -169,7 +170,7 @@ We can run XPath queries directly from within all major modern browsers, by enab
 
 > ## Display the console in your browser
 >
-> * In Chrome, use the *View > Developer > JavaScript Console* menu item.
+> * In Chrome, use the *View > Developer > JavaScript Console* menu item. You can also use the shortcut Command+Option+J (Mac) or Control+Shift+J.
 >
 {: .callout}
 
