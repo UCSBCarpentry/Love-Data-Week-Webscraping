@@ -50,7 +50,7 @@ As useful as scraping is, there might be better options for the task. Choose the
 [Facebook API](https://developers.facebook.com/tools/explorer/), the [Twitter APIs](https://dev.twitter.com/rest/public) or the [YouTube comments API](https://developers.google.com/youtube/v3/docs/commentThreads/list).
 - For much larger needs, Freedom of information requests can be useful. Be specific about the formats required for the data you want.
 
-## Example: scraping UCSB department websites for faculty contact information
+## Example: Scraping UCSB department websites for faculty contact information
 
 In this lesson, we will extract contact information from UCSB department faculty pages. This example came from a recent real-life scenario when your instructors for today needed to make lists of social sciences faculty for outreach reasons. There is no overarching list of faculty, contact information, and study area available for the university as a whole. This was made even more difficult by the fact that each UCSB department has webpages with wildly different formatting. Today we will see examples using the Chrome Scraper extension. Another technique is to use the Python programming language and a the Scrapy library, which is covered in a previous version of this workshop given [here](https://ucsbcarpentry.github.io/2020-06-03-UCSB-LibCarp/). There are different scenarios when one might be a better choice than the other.
 
@@ -123,29 +123,47 @@ Alberta and list their names and caucus information.
 >
 {: .callout}
 
-Let's look now at the current list of members for the [UK House of Commons](https://www.parliament.uk/mps-lords-and-offices/mps/). 
+Let's look now at the current list of members for the [UK House of Commons](https://members.parliament.uk/members/commons). 
 
-![Screenshot of the UK House of Commons website]({{ page.root }}/fig/ukparl.png)
+![Screenshot of the UK House of Commons website]({{ page.root }}/fig/ukparl2021.png)
 
 This page also displays a list of names, political and geographical affiliation. There is a search box and
 a filter option, but no obvious way to download this information and reuse it.
 
-Here is the code for this page:
+Here is a portion of the code for this page:
 
 ~~~
 (...)
-<table>
-    <tbody>
-        (...)
-        <tr id="ctl00_ctl00_(...)_trItemRow" class="first">
-            <td>Aberavon</td>
-            <td id="ctl00_ctl00_(...)_tdNameCellRight">
-                <a id="ctl00_ctl00_(...)_hypName" href="http://www.parliament.uk/biographies/commons/stephen-kinnock/4359">Kinnock, Stephen</a>(Labour)
-            </td>
-        </tr>
-        (...)
-    </tbody>
-</table>
+<div class="card-list card-list-2-col">
+        
+<a class="card card-member" href="/member/172/contact">
+    <div class="card-inner">
+        <div class="content">
+            <div class="image-outer">
+                <div class="image"
+                     aria-label="Image of Ms Diane Abbott"
+                     style="background-image: url(https://members-api.parliament.uk/api/Members/172/Thumbnail); border-color: #ff0000;"></div>
+            </div>
+            <div class="primary-info">
+                Ms Diane Abbott
+            </div>
+            <div class="secondary-info">
+                Labour
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-inner">
+                <div class="indicators-left">
+                    <div class="indicator indicator-label">
+                        Hackney North and Stoke Newington
+                    </div>
+                </div>
+                
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</a>
 (...)
 ~~~
 {: .output}
