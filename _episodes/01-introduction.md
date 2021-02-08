@@ -124,14 +124,12 @@ Alberta and list their names and caucus information.
 {: .callout}
 
 Let's look now at the current list of members for the [UK House of Commons](https://members.parliament.uk/members/commons). 
-
+&nbsp;  
 ![Screenshot of the UK House of Commons website]({{ page.root }}/fig/ukparl2021.png)
-
+&nbsp;  
 This page also displays a list of names, political and geographical affiliation. There is a search box and
-a filter option, but no obvious way to download this information and reuse it.
-
-Here is a portion of the code for this page:
-
+a filter option, but no obvious way to download this information and reuse it. Here is a portion of the code for this page:
+&nbsp;  
 ~~~
 (...)
 <div class="card-list card-list-2-col">
@@ -167,7 +165,7 @@ Here is a portion of the code for this page:
 (...)
 ~~~
 {: .output}
-
+&nbsp;  
 We see that this data has been structured for displaying purposes (it is arranged in rows inside
 a table) but the different elements of information are not clearly labelled.
 
