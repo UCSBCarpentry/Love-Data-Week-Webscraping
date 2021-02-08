@@ -136,24 +136,9 @@ invisible. To make the underlying code visible, all browsers have a function to 
 a web page.
 
 > ## Display the source of this page
-> Using your favourite browser, display the HTML source code of this page.
->
-> Tip: in most browsers, all you have to do is do a right-click anywhere on the page and select the "View Page Source"
-> option ("Show Page Source" in Safari).
->
-> Another tab should open with the raw HTML that makes this page. See if you can locate its various elements, and
+> Using Chrome, display the HTML source code of this page by right-clicking anywhere on the page and select the "View Page Source"
+> option. Another tab should open with the raw HTML that makes this page. See if you can locate its various elements, and
 > this challenge box in particular.
->
-{: .callout}
-
-
-> ## Using the Safari browser
->
-> If you are using Safari, you must first turn on the "Develop" menu in order to view the page source, and use the
-> functions that we will use later in this section. To do so, navigate to Safari > Preferences and in the Advanced tab
-> select the "Show Develop in menu bar" option. Note: In recent versions of Safari you must first turn on the "Develop" 
-> menu (in Preferences) and then navigate to `Develop > Show Javascript Console` and then click on the "Console" tab.
->
 {: .callout}
 
 The HTML structure of the page you are currently reading looks something like this (most text and elements have
