@@ -227,7 +227,7 @@ the _root_ of the document. With that query, we told the browser to
 
 Using this syntax, XPath thus allows us to determine the exact _path_ to a node.
 
-> ## Select the "Introduction" title
+> ## Challenge 2.1: Select the "Introduction" title
 > Write an XPath query that selects the "Introduction" title above and try running it in the console.
 >
 > Tip: if a query returns multiple elements, the syntax `element[1]` can be used. Note that
@@ -314,7 +314,7 @@ Array [ <blockquote.challenge>, <blockquote.challenge>, <blockquote.challenge>, 
 {: .output}
 
 
-> ## Select the "Introduction" title by ID
+> ## Challenge 2.2: Select the "Introduction" title by ID
 > In a previous challenge, we were able to select the "Introduction" title because we knew it was
 > the first `h1` element on the page. But what if we didn't know how many such elements were on the
 > page. In other words, is there a different attribute that allows us to uniquely identify that title
@@ -350,7 +350,7 @@ Array [ <blockquote.challenge>, <blockquote.challenge>, <blockquote.challenge>, 
 
 
 
-> ## Select this challenge box
+> ## Challenge 2.3: Select this challenge box
 > Using an XPath query in the JavaScript console of your browser, select the element that contains the text
 > you are currently reading on this page.
 >
