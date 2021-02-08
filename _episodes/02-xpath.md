@@ -29,7 +29,7 @@ written by [Kim Pham](https://github.com/kimpham54) ([@tolloid](https://twitter.
 for the July 2016 [Library Carpentry workshop](https://code4libtoronto.github.io/2016-07-28-librarycarpentry/) in Toronto.
 
 # Introduction
-XPath (which stands for XML Path Language) is an _expression language_ used to specify parts of an XML document.
+XPath (which stands for XML Path Language) is an _expression language_ used to specify parts of an XML document. It was developed by the World Wide Web Consortium (W3C) as a query language that allows for selecting nodes and navigating an XML document.
 XPath is rarely used on its own, rather it is used within software and languages that are aimed at manipulating
 XML documents, such as XSLT, XQuery or the web scraping tools that will be introduced later in this lesson.
 XPath can also be used in documents with a structure that is similar to XML, like HTML.
