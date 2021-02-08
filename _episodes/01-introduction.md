@@ -1,6 +1,6 @@
 ---
 title: "Introduction: What is web scraping?"
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - "What is web scraping and why is it useful?"
