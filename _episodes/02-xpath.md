@@ -169,19 +169,12 @@ We can run XPath queries directly from within all major modern browsers, by enab
 
 > ## Display the console in your browser
 >
-> * In Firefox, use to the *Tools > Web Developer > Web Console* menu item.
 > * In Chrome, use the *View > Developer > JavaScript Console* menu item.
-> * In Safari, use the *Develop > Show Error Console* menu item. If your Safari browser doesn't have a Develop menu,
->   you must first enable this option in the Preferences, see above.
 >
 {: .callout}
 
-Here is how the console looks like in the Firefox browser:
-
-![JavaScript console in Firefox]({{ page.root }}/fig/firefox-console.png)
-
 For now, don't worry too much about error messages if you see any in the console when you open it. The console
-should display a _prompt_ with a `> ` character (`>>` in Firefox) inviting you to type commands.
+should display a _prompt_ with a `> ` character inviting you to type commands.
 
 The syntax to run an XPath query within the JavaScript console is `$x("XPATH_QUERY")`, for example:
 
