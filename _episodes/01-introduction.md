@@ -7,12 +7,12 @@ questions:
 - "What are typical use cases for web scraping?"
 objectives:
 - "Introduce the concept of structured data"
-- "Discuss how data can be extracted from web pages"
+- "Discuss how data can be extracted from webpages"
 - "Introduce the examples that will be used in this lesson"
 keypoints:
 - "Humans are good at categorizing information, computers not so much."
 - "Often, data on a web site is not properly structured, making its extraction difficult."
-- "Web scraping is the process of automating the extraction of data from web sites."
+- "Web scraping is the process of automating the extraction of data from websites."
 ---
 
 ## What is web scraping?
@@ -54,17 +54,18 @@ As useful as scraping is, there might be better options for the task. Choose the
 
 In this lesson, we will extract contact information from UCSB department faculty pages. This example came from a recent real-life scenario when your instructors for today needed to make lists of social sciences faculty for outreach reasons. There is no overarching list of faculty, contact information, and study area available for the university as a whole. This was made even more difficult by the fact that each UCSB department has webpages with wildly different formatting. Today we will see examples using the Chrome Scraper extension. Another technique is to use the Python programming language and a the Scrapy library, which is covered in a previous version of this workshop given [here](https://ucsbcarpentry.github.io/2020-06-03-UCSB-LibCarp/). There are different scenarios when one might be a better choice than the other.
 
-Let's start by looking at how data on websites can be more or less structured.  Let's look first at the current list of members of the Canadian parliament, which is available on the [Parliament of Canada website](http://www.parl.gc.ca/Parliamentarians/en/members).
-
-This is how this page appears as of February, 7 2021:
+Let's start by looking at how data on websites can be more or less structured.  Let's look first at the current list of members of the Canadian parliament, which is available on the [Parliament of Canada website](http://www.parl.gc.ca/Parliamentarians/en/members). This is how this page looks like as of February, 7 2021:
 
 ![Screenshot of the Parliament of Canada website]({{ page.root }}/fig/canparl2021-1.png)
+&nbsp;  
 
 There are several features that make the data on this page easier to work with.
 The search, reorder, refine features and display modes hint that the data is actually stored in a (structured)
 database before being displayed on this page. Also, when we scroll down, we can see that this data can be readily downloaded either as a comma separated values (.csv) file or as XML for re-use in their own database, spreadsheet or computer program.
+&nbsp;  
 
 ![Screenshot of the Parliament of Canada website]({{ page.root }}/fig/canparl2021-2.png)
+&nbsp;  
 
 Even though the information displayed in the view above is not labelled, anyone visiting this site with some
 knowledge of Canadian geography and politics can see what information pertains to the 
