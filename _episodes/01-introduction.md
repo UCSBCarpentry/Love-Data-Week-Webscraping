@@ -55,6 +55,7 @@ As useful as scraping is, there might be better options for the task. Choose the
 In this lesson, we will extract contact information from UCSB department faculty pages. This example came from a recent real-life scenario when your instructors for today needed to make lists of social sciences faculty for outreach reasons. There is no overarching list of faculty, contact information, and study area available for the university as a whole. This was made even more difficult by the fact that each UCSB department has webpages with wildly different formatting. Today we will see examples using the Chrome Scraper extension. Another technique is to use the Python programming language and a the Scrapy library, which is covered in a previous version of this workshop given [here](https://ucsbcarpentry.github.io/2020-06-03-UCSB-LibCarp/). There are different scenarios when one might be a better choice than the other.
 
 Let's start by looking at how data on websites can be more or less structured.  Let's look first at the current list of members of the Canadian parliament, which is available on the [Parliament of Canada website](http://www.parl.gc.ca/Parliamentarians/en/members). This is how this page looks like as of February, 7 2021:
+&nbsp;  
 
 ![Screenshot of the Parliament of Canada website]({{ page.root }}/fig/canparl2021-1.png)
 &nbsp;  
