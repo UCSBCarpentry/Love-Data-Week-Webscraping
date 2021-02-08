@@ -32,7 +32,7 @@ With the extension installed, we can select the first row in the faculty list, d
 ![East Asian Studies website/scrape]({{ page.root }}/fig/Image2.png)
  
 You can select the picture as well. Make sure you do not right-click on a hyperlinked text. 
-Alternatively, the "Scrape similar" option can also be accessed from the Scraper extension icon, but we have found that often times you can experience a glitch with the path if you use the icon instead.
+Alternatively, the "Scrape similar" option can also be accessed from the Scraper extension icon, but we have found that often times you can experience a glitch with the path with this option.
  
 ![Scraper Web Browser]({{ page.root }}/fig/Image3.png)
  
@@ -107,7 +107,7 @@ Let's inspect the link to identify on the developer's console the exact path for
 {: .callout}
  
  
-> ## Challenge: Scrape Emails
+> ## Challenge 3.1: Scrape Emails
 > Which path would you have to provide to Scraper to get the emails in one column?
 >
 >> ## Solution
@@ -175,7 +175,7 @@ You should get this path:
 
 
 
-> ## Challenge: Why do both these Xpaths work?
+> ## Challenge 3.2: Why do both these Xpaths work?
 > Question:  In this case, either of the following paths would work. Do you know why?: 
 > 
 > ```
@@ -199,7 +199,7 @@ You should get this path:
 {: .challenge}
 
 
-> ## Challenge: Scrape Three Columns
+> ## Challenge 3.3: Scrape Three Columns
 >
 > Now that you have learned how to get the right path to create columns for names, follow the same steps to get the three other columns Emails, Position, and Office.
 >
@@ -250,7 +250,7 @@ We can create a new column and use the concat() XPath function to construct the 
 Note that the XPath expression basically tells Scraper what should be placed before `@href`
 
 
-> ## Challenge: Applying `concat` function
+> ## Challenge 3.4: Applying `concat` function
 >
 >
 > Let's say you want to add automatically include `Dr.` before all faculty names, how would you do that using the `concat()` XPath function
@@ -271,11 +271,8 @@ Note that the XPath expression basically tells Scraper what should be placed bef
  
 [Web Scraper](https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn?hl=en)
 
-
 [Simple Scraper](https://chrome.google.com/webstore/detail/simple-scraper-%E2%81%A0%E2%80%94-scrape/lnddbhdmiciimpkbilgpklcglkdegdkg)
 
-
 [Grepsr](https://chrome.google.com/webstore/detail/grepsr-web-scraping-tool/hjdijkhlfpeafghibmiabeofkiicdnjm)
-
 
 [Grabbly](https://chrome.google.com/webstore/detail/grabbly/acmmehmidcnncgbigblfkgmbmeijgefl?hl=en)
