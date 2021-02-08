@@ -56,14 +56,15 @@ In this lesson, we will extract contact information from UCSB department faculty
 
 Let's start by looking at how data on websites can be more or less structured.  Let's look first at the current list of members of the Canadian parliament, which is available on the [Parliament of Canada website](http://www.parl.gc.ca/Parliamentarians/en/members).
 
-This is how this page appears in November 2016:
+This is how this page appears as of February, 7 2021:
 
-![Screenshot of the Parliament of Canada website]({{ page.root }}/fig/canparl.png)
+![Screenshot of the Parliament of Canada website]({{ page.root }}/fig/canparl2021-1.png)
 
-There are several features (circled in the image above) that make the data on this page easier to work with.
+There are several features that make the data on this page easier to work with.
 The search, reorder, refine features and display modes hint that the data is actually stored in a (structured)
-database before being displayed on this page. The data can be readily downloaded either as a comma separated values (.csv)
-file or as XML for re-use in their own database, spreadsheet or computer program.
+database before being displayed on this page. Also, when we scroll down, we can see that this data can be readily downloaded either as a comma separated values (.csv) file or as XML for re-use in their own database, spreadsheet or computer program.
+
+![Screenshot of the Parliament of Canada website]({{ page.root }}/fig/canparl2021-2.png)
 
 Even though the information displayed in the view above is not labelled, anyone visiting this site with some
 knowledge of Canadian geography and politics can see what information pertains to the 
@@ -76,19 +77,28 @@ organised inside labelled elements:
 
 ~~~
 (...)
-<div>
-    <a href="/Parliamentarians/en/members/Ziad-Aboultaif(89156)"> 
-        <img alt="Photo - Ziad Aboultaif - Click to open the Member of Parliament profile" title="Photo - Ziad Aboultaif - Click to open the Member of Parliament profile" src="http://www.parl.gc.ca/Parliamentarians/Images/OfficialMPPhotos/42/AboultaifZiad_CPC.jpg" class="picture" />
-        <div class="full-name">
-		    <span class="honorific"><abbr></abbr></span>
-            <span class="first-name">Ziad</span>
-            <span class="last-name">Aboultaif</span>
+<div class="ce-mip-mp-tile-container " id="mp-tile-person-id-89156">
+    <a class="ce-mip-mp-tile" href="/Members/en/ziad-aboultaif(89156)">
+        <div class="ce-mip-flex-tile">
+            <div class="ce-mip-mp-picture-container">
+                <img class="ce-mip-mp-picture visible-lg visible-md img-fluid" src="/Content/Parliamentarians/Images/OfficialMPPhotos/43/AboultaifZiad_CPC.jpg"
+                     alt="Photo - Ziad Aboultaif - Click to open the Member of Parliament profile">
+            </div>
+            <div class="ce-mip-tile-text">
+                <div class="ce-mip-tile-top">
+                    <div class="ce-mip-mp-honourable"></div>
+                    <div class="ce-mip-mp-name">Ziad Aboultaif</div>
+                    <div class="ce-mip-mp-party" style="border-color:#002395;">Conservative</div>
+                </div>
+                <div class="ce-mip-tile-bottom">
+                    <div class="ce-mip-mp-constituency">Edmonton Manning</div>
+                    <div class="ce-mip-mp-province">Alberta</div>
+                </div>
+            </div>
+        </div>
+        <div>
         </div>
     </a>
-    <div class="caucus-banner" style="background-color:#002395"></div>
-    <div class="caucus">Conservative</div>
-    <div class="constituency">Edmonton Manning</div>
-    <div class="province">Alberta</div>        
 </div>
 (...)
 ~~~
