@@ -1,7 +1,7 @@
 ---
 title: "Manually scrape data using browser extensions"
-teaching: 45
-exercises: 20
+teaching: 15
+exercises: 10
 questions:
 - "How can I get started scraping data off the web?"
 - "How can I use XPath to more accurately select what data to scrape?"
