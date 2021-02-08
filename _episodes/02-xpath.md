@@ -144,7 +144,7 @@ a web page.
 > Another tab should open with the raw HTML that makes this page. See if you can locate its various elements, and
 > this challenge box in particular.
 >
-{: .challenge}
+{: .callout}
 
 
 > ## Using the Safari browser
@@ -250,8 +250,7 @@ Using this syntax, XPath thus allows us to determine the exact _path_ to a node.
 > {: .solution}
 {: .challenge}
 
-Before we look into other
-ways to reach a specific HTML node using XPath, let's start by looking closer at how nodes are arranged
+Before we look into other ways to reach a specific HTML node using XPath, let's start by looking closer at how nodes are arranged
 within a document and what their relationships with each others are.
 
 
@@ -292,7 +291,7 @@ This produces a longer array of objects:
 > Tip: Look at the source code and see how the challenges and solutions elements are
 > organised.
 >
-{: .challenge}
+{: .callout}
 
 We can use the `class` attribute of certain elements to filter down results. For example, looking
 at the list of `blockquote` elements returned by the previous query, and by looking at this page's
