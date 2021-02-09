@@ -30,9 +30,7 @@ in the data.
 > as well as introduce the XPath syntax for selecting elements on a web page
 > and requires no further specific knowledge.
 > The second part will introduce the use of specialized libraries to scrape websites by writing
-> custom computer programs and will require some familiarity with the 
-> [Python programming language](https://swcarpentry.github.io/python-novice-inflammation/)
-> and [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming).
+> custom computer programs. 
 >
 {: .prereq}
 
