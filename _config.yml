@@ -25,7 +25,7 @@ kind: "lesson"
 repository: <UCSBCarpentry>/<Love-Data-Week-Webscraping>
 
 # Email address, no mailto:
-email: "team@carpentries.org"
+email: "rds@library.ucsb.edu"
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
