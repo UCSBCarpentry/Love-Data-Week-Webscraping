@@ -1,7 +1,7 @@
 ---
 title: "Selecting content on a web page with XPath"
 teaching: 15
-exercises: 10
+exercises: 0
 questions:
 - "How can I select a specific element on web page?"
 - "What is XPath and how can I use it?"
