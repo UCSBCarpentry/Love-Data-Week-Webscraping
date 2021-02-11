@@ -166,10 +166,9 @@ a filter option, but no obvious way to download this information and reuse it. H
 ~~~
 {: .output}
 &nbsp;  
-We see that this data has been structured for displaying purposes (it is arranged in rows inside
-a table) but the different elements of information are not clearly labelled.
 
-What if we wanted to download this dataset and, for example, compare it with the Canadian list of MPs
+
+What if we wanted to download this data and, for example, compare it with the Canadian list of MPs
 to analyze gender representation, or the representation of political forces in the two groups?
 We could try copy-pasting the entire table into a spreadsheet or even manually
 copy-pasting the names and parties in another document, but this can quickly become impractical when
