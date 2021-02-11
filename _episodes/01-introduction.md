@@ -188,10 +188,10 @@ _web scraping_.
 Web scraping typically targets one web site at a
 time to extract unstructured information and put it in a structured form for reuse.
 
-In this lesson, we will continue exploring the examples above and try different techniques to extract
+In this lesson, we will continue exploring examples and follow techniques to extract
 the information they contain. But before we launch into web scraping proper, we need to look
 a bit closer at how information is organized within an HTML document and how to build queries to access
-a specific subset of that information.
+a specific subset of that information, by understanding XPath.
 
 # References
 
