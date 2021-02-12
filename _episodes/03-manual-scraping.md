@@ -113,7 +113,7 @@ Let's inspect the link to identify on the developer's console the exact path for
 >> ## Solution
 >>You should get a column with emails with any of following paths after hitting scrape:
 >>~~~
->> `*[4]/a or ./td[4]/a`
+>>  ```*[4]/a``` or ```./td[4]/a```
 >>~~~
 >>{: .output}
 >> Note that Scraper gave you a starting path based on what you have scraped `//tr[td]`, so you have 
@@ -207,14 +207,14 @@ You should get this path:
 >
 >
 > > ## Solution
-> > After completing all steps you should get the following output: 
+> > After completing all steps you should have one of the following results rendering to correct scraping outputs: 
 > > 
 > >
 > > ![Screenshot of the Scraper]({{ page.root }}/fig/Image9.png)
 > > ~~~
-> > ./div[4]/div[1]/div/a (Email)
-> > ./div[2]/div[2]/div/div (Position)
-> > ./div[4]/div[3]/div/div/ul/li (Office)
+> > ```./div/span/a``` or ```./div[4]/div[1]/div/a``` (Email)
+> >  ```./div[2]/div[2]/div/div```(Position) or ```./div/div/div/div/ul/li``` or ```./div/div/p``` (If you selected position with Specialization)
+> > ```./div/div[3]/div/div/ul/li``` or ```./div[4]/div[3]/div/div/ul/li``` (Office)
 > > ~~~
 > {: .solution}
 {: .challenge}
