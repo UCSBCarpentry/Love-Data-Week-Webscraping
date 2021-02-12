@@ -111,15 +111,16 @@ Let's inspect the link to identify on the developer's console the exact path for
 > Which path would you have to provide to Scraper to get the emails in one column?
 >
 >> ## Solution
->>You should get a column with emails with the following path expression after hitting scrape
+>>You should get a column with emails with any of following paths after hitting scrape
 >>~~~
->>./td[4]/a
+>> `*[4]/a or  
+./td[4]/a`
 >>~~~
 >>{: .output}
 >> Note that Scraper gave you a starting path based on what you have scraped `//tr[td]`, so you have 
 >> only to add the continuation of it. In order to tell Scraper extension we are only interested in the 
 >> emails, we will have to indicate the data that is in the fourth <td> Table Data Cell Element and add the specific path to 
->> the email address `/a` (anchor element). Don't forget the dot (.) in the beginning of the Xpath expression. As we 
+>> the email address `/a` (anchor element). Don't forget the dot (.) or the (*) in the beginning of the Xpath expression. As we 
 >> learned in the previous lesson, it is how you tell the path is in the current context node.
 >>
 >> You can remove the contact column now and copy the output to the clipboard. 
