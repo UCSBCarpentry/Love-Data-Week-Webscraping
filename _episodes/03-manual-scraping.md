@@ -120,7 +120,7 @@ Let's inspect the link to identify on the developer's console the exact path for
 >> only to add the continuation of it. In order to tell Scraper extension we are only interested in the 
 >> emails, we will have to indicate the data that is in the fourth <td> Table Data Cell Element and add the specific path to 
 >> the email address `/a` (anchor element). Don't forget the dot (.) or the (*) in the beginning of the Xpath expression. As we 
->> learned in the previous lesson, it is how you tell the path is in the current context node.
+>> learned in the previous lesson, it is how you tell the path to select the current context node and to match the element node, respectively.
 >>
 >> You can remove the contact column now and copy the output to the clipboard. 
 > {: .solution}
