@@ -213,7 +213,7 @@ You should get this path:
 > > ![Screenshot of the Scraper]({{ page.root }}/fig/Image9.png)
 > > ~~~
 > > Email: ./div/span/a or ./div[4]/div[1]/div/a
-> > Position ./div[2]/div[2]/div/div or ./div/div/div/div/ul/li or ./div/div/p (If you selected position and specialization)
+> > Position ./div[2]/div[2]/div/div/ul/li or ./div[2]/div[2]/div/div or ./div/div/div/div/ul/li or ./div/div/p (If you selected position and specialization)
 > > Office: ./div/div[3]/div/div/ul/li or ./div[4]/div[3]/div/div/ul/li
 > > ~~~
 > {: .solution}
