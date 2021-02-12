@@ -111,10 +111,9 @@ Let's inspect the link to identify on the developer's console the exact path for
 > Which path would you have to provide to Scraper to get the emails in one column?
 >
 >> ## Solution
->>You should get a column with emails with any of following paths after hitting scrape
+>>You should get a column with emails with any of following paths after hitting scrape:
 >>~~~
->> `*[4]/a or  
-./td[4]/a`
+>> `*[4]/a or ./td[4]/a`
 >>~~~
 >>{: .output}
 >> Note that Scraper gave you a starting path based on what you have scraped `//tr[td]`, so you have 
